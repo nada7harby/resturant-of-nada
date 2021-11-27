@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Mono:ital,wght@0,400;1,200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400;500&family=Roboto+Mono:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script&family=Pacifico&family=Roboto+Mono:ital,wght@0,200;1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235 247 255 / 70%);
+}
+.navbar{
+    padding-top: 5px;
+    background-color: #045cbc;
+  
+}
+.navbar .nav-item{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+}
+.Home{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.Home h1{
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;;
+}
+.Home p{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Comforter', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+.card img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+}
+.member{
+    background-color: #fff;
+    padding: 40px 0px;
+}
+.member h1 ,.goals h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 67px;
+    font-family: 'Pacifico', cursive;;
+}
+.member .card{
+    margin: 14px 0px;
+}
+@media (max-width:1100px) {
+    img{
+       width: 80%;
+   }
+   
+}
+footer{
+    padding-top: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: capitalize;
+}
+footer h3{
+    font-family: 'Inconsolata', monospace; 
+    margin-bottom: 10px;
+    padding: 10px;
+}
+footer ul {
+    list-style: none;
+    font-size: 20px;
+
+}
+footer ul li{
+    line-height: 40px;
+    color: #78909c;
+}
+footer ul li a{
+    color: #78909c;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: capitalize;
+}
+footer ul li:hover{
+    color: #78909c;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: #78909c;
+}
+ .copy{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    font-family: 'Gemunu Libre', sans-serif;
+    padding: 30px;
+    background-color: #111211;
+}
